@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: normal;
+}
+
+.container > .element {
+    padding: 12px;
+    border: 1px solid #000000;
+    margin-bottom: 12px;
+}
+
+.container > .element:hover {
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+.container > .element:last-child {
+    margin-bottom: 0;
+}
